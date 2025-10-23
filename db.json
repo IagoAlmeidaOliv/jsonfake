@@ -1,0 +1,72 @@
+{
+  "veterinarios": [
+    { "id": 1, "nome": "Marco", "cpf": 11111111111, "CRMV": 1, "telefone": 111111111, "email": "marco@gmail.com", "cep": 11111111, "logradouro": "Brasil", "numero": 1, "complemento":"apt 1", "bairro":"Costa Carvalho", "cidade":"Juiz de Fora", "UF":"MG", "senha":"123"},
+	{ "id": 2, "nome": "Antonio", "cpf": 11111111112, "CRMV": 2, "telefone": 111111111, "email": "antonio@gmail.com", "cep": 11111111, "logradouro": "Batista de Oliveira", "numero": 1, "complemento":"sem complemento", "bairro":"Centro", "cidade":"Juiz de Fora", "MG":"JF", "senha":"abc"},
+	{ "id": 3, "nome": "Pereira", "cpf": 11111111113, "CRMV": 3, "telefone": 111111111, "email": "pereira@gmail.com", "cep": 11111111, "logradouro": "Olégario Maciel", "numero": 1, "complemento":"casa 2", "bairro":"Jardim Glória", "cidade":"Juiz de Fora", "UF":"MG", "senha":"789"},
+	{ "id": 4, "nome": "Araujo", "cpf": 11111111114, "CRMV": 4, "telefone": 111111111, "email": "araujo@gmail.com", "cep": 11111111, "logradouro": "Violeta Santos", "numero": 1, "complemento":"bloco 4 apto 10", "bairro":"Santa Helena", "cidade":"Juiz de Fora", "UF":"MG", "senha":"xyz"},
+	{ "id": 5, "nome": "Marcão", "cpf": 11111111115, "CRMV": 5, "telefone": 111111111, "email": "marcao@gmail.com", "cep": 11111111, "logradouro": "Coronel Almeida Novaes", "numero": 1, "complemento":"sem complemento", "bairro":"Fábria", "cidade":"Juiz de Fora", "UF":"MG", "senha":"123abc"}
+  ],
+  "animais": [
+    { "id": 1, "nome": "Harry", "dataNascimento": "01/01/2022", "sexo": "M", "castrado":true, "observações":"sem observações", "foto":"-", "idTutor":1, "idRaça":1},
+	{ "id": 2, "nome": "Pitucho", "dataNascimento": "01/01/2022", "sexo": "M", "castrado":false, "observações":"sem observações", "foto":"-", "idTutor":2, "idRaça":1},
+	{ "id": 3, "nome": "Solineuza", "dataNascimento": "01/01/2022", "sexo": "F", "castrado":true, "observações":"sem observações", "foto":"-", "idTutor":3, "idRaça":2},
+	{ "id": 4, "nome": "Fofinho", "dataNascimento": "01/01/2022", "sexo": "F", "castrado":false, "observações":"sem observações", "foto":"-", "idTutor":4, "idRaça":2},
+	{ "id": 5, "nome": "Rex", "dataNascimento": "01/01/2022", "sexo": "F", "castrado":false, "observações":"morde", "foto":"-", "idTutor":5, "idRaça":3}
+  ],
+  "tutores": [
+    { "id": 1, "nome": "João", "cpf": 11111111111, "telefone": "111111111", "email":"joao@gmail.com", "cep":11111111, "logradouro":"Batista de Oliveira", "numero": 1, "complemento":"Sem complemento", "bairro":"Arado", "cidade":"Juiz de Fora", "UF":"MG"},
+	{ "id": 2, "nome": "Nícolas", "cpf": 11111111111, "telefone": "111111111", "email":"nicolas@gmail.com", "cep":11111111, "logradouro":"Belo Horizonte", "numero": 1, "complemento":"casa 2", "bairro":"Centro", "cidade":"Juiz de Fora", "UF":"MG"},
+	{ "id": 3, "nome": "Iago", "cpf": 11111111111, "telefone": "111111111", "email":"iago@gmail.com", "cep":11111111, "logradouro":"Halfeld", "numero": 1, "complemento":"Sem complemento", "bairro":"Cerâmica", "cidade":"Juiz de Fora", "UF":"MG"},
+	{ "id": 4, "nome": "Thais", "cpf": 11111111111, "telefone": "111111111", "email":"thais@gmail.com", "cep":11111111, "logradouro":"São João", "numero": 1, "complemento":"apto 210", "bairro":"Santa Terezinha", "cidade":"Juiz de Fora", "UF":"MG"},
+	{ "id": 5, "nome": "Sophia", "cpf": 11111111111, "telefone": "111111111", "email":"sophia@gmail.com", "cep":11111111, "logradouro":"Bernardo Mascarenhas", "numero": 1, "complemento":"Sem complemento", "bairro":"Democrata", "cidade":"Juiz de Fora", "UF":"MG"}
+  ],
+  "especie": [
+    { "id": 1, "nome": "Cachorro"},
+	{ "id": 2, "nome": "Gato"},
+	{ "id": 3, "nome": "Ave"},
+	{ "id": 4, "nome": "Cobra"},
+	{ "id": 5, "nome": "Peixe"}
+  ],
+  "raça": [
+    { "id": 1, "nome": "Poodle", "idEspecie":1},
+	{ "id": 1, "nome": "SRD", "idEspecie":1},
+	{ "id": 1, "nome": "Siamês", "idEspecie":2},
+	{ "id": 1, "nome": "Laranja", "idEspecie":2},
+	{ "id": 1, "nome": "Beta", "idEspecie":5}
+  ],
+  "consulta": [
+    { "id": 1, "data": "01/01/2025", "orientações":"sem orientações", "status": "Marcado", "idVet":1, "idAnimal":1},
+	{ "id": 2, "data": "01/01/2025", "orientações":"sem orientações", "status": "Marcado", "idVet":1, "idAnimal":2},
+	{ "id": 3, "data": "01/01/2025", "orientações":"sem orientações", "status": "Marcado", "idVet":1, "idAnimal":3},
+	{ "id": 4, "data": "01/01/2025", "orientações":"sem orientações", "status": "Marcado", "idVet":1, "idAnimal":4},
+	{ "id": 5, "data": "01/01/2025", "orientações":"sem orientações", "status": "Marcado", "idVet":1, "idAnimal":5}
+  ],
+  "procedimento": [
+    { "id": 1, "nome": "Banho", "custo": 10},
+	{ "id": 2, "nome": "Tosa", "custo": 10},
+	{ "id": 3, "nome": "Castração", "custo": 1000},
+	{ "id": 4, "nome": "Exame de Sangue", "custo": 100},
+	{ "id": 5, "nome": "Checkup", "custo": 100}
+  ]
+  "datas": [
+    { "id": 1},
+	{ "id": 2},
+	{ "id": 3},
+	{ "id": 4},
+	{ "id": 5}
+  ]  
+  "vetHasDatas": [
+    { "id": 1, "idData": 1, "idVet": 1},
+	{ "id": 2, "idData": 2, "idVet": 1},
+	{ "id": 3, "idData": 3, "idVet": 2},
+	{ "id": 4, "idData": 4, "idVet": 3},
+	{ "id": 5, "idData": 5, "idVet": 4}
+  ]  
+  "consultaHasProcedimentos": [
+    { "id": 1, "idConsulta": 1, "idProcedimento": 1},
+	{ "id": 2, "idConsulta": 2, "idProcedimento": 2},
+	{ "id": 3, "idConsulta": 3, "idProcedimento": 2},
+	{ "id": 4, "idConsulta": 4, "idProcedimento": 3},
+	{ "id": 5, "idConsulta": 5, "idProcedimento": 5}
+  ]  
+}
